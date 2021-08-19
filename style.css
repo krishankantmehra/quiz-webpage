@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(220, 243, 220);
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#main{
+    margin-top:35vh;
+    margin-left: 30vw;
+    animation-name: pop_up;
+    animation-duration: 1.2s;
+    animation-delay: 100ms;
+    animation-timing-function: ease-in-out;
+    
+}
+
+button{
+    border: none;
+    font-size: 1.1em;
+    width: fit-content;
+    background-color: green;
+    border-radius: 15px;
+    padding: 0px 20px 0px 20px;
+}
+@keyframes pop_up{
+    0%{
+        opacity: 0%;
+        transform:translateY(5vh) ;
+}
+100%{
+    opacity: 100%;
+    transform:translateY(0vh);
+}
+}
+
+#start{
+    display: none;
+    transition: 1s;
+}
+
+#start *{
+    margin-top: 20px;
+}
+
+#notify{
+    color: red;
+}
+
