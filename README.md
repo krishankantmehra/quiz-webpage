@@ -1,3 +1,3 @@
-# quiz-webpage
-
-Put all files in same folder then open html file.
+## Quiz Web Page
+# ABOUT
+A frontend  webpage made using HTML,CSS and JavaScript.
