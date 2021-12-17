@@ -21,6 +21,7 @@ button{
     background-color: green;
     border-radius: 15px;
     padding: 0px 20px 0px 20px;
+    cursor: pointer;
 }
 @keyframes pop_up{
     0%{
@@ -46,3 +47,9 @@ button{
     color: red;
 }
 
+.option{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
