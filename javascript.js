@@ -42,7 +42,7 @@ function check(){
     
     if(ans === null){
         console.log(ans);
-        document.getElementById("notify").innerText = "please select an opion";
+        document.getElementById("notify").innerText = "*please select an opion";
     }
     
     else{
